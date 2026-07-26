@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Trivia Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="welcome-screen" class="screen active">
+            <h1>Guess the Friends Character!</h1>
+            <p>Answer 7 multiple-choice questions to test your Friends knowledge.</p>
+            <button id="start-btn" class="btn">Start Quiz</button>
+        </div>
+        <div id="quiz-screen" class="screen">
+            <div class="top-bar">
+                <span id="question-count">Question 1 of 7</span>
+                <span id="timer">Time: 15s</span>
+            </div>
+            <div class="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+            <h2 id="question-text">Question goes here</h2>
+
+            <div id="options-list">
+                <!-- Buttons added by JavaScript -->
+            </div>
+            <button id="next-btn" class="btn" disabled>Next</button>
+        </div>
+        <div id="result-screen" class="screen">
+            <h2>Quiz Complete!</h2>
+            <p class="score-display">Your Score: <span id="final-score">0/7</span></p>
+            <p id="score-msg"></p>
+            <button id="restart-btn" class="btn">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
