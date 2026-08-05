@@ -1,10 +1,10 @@
-#Unicode Technical Committee Selection Tasks
+## Unicode Technical Committee Selection Tasks
 
-#About
+## About
 
 This repository contains the Frontend tasks completed by me as part of the **Unicode Technical Committee (UTC)** selection process. These tasks showcase my understanding of HTML, CSS, JavaScript, React, API integration, and responsive web development.
 
-#Technologies Used
+## Technologies Used
 
 * HTML5
 * CSS3
@@ -13,7 +13,7 @@ This repository contains the Frontend tasks completed by me as part of the **Uni
 * Git
 * GitHub
 
-#Frontend Tasks
+## Frontend Tasks
 
 * Task 1
 * Task 2
